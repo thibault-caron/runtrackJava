@@ -2,7 +2,7 @@ package jour03.job04_Commerce;
 
 import java.util.Scanner;
 
-public class commerce {
+public class App {
     
     public static void main(String[] args) {
         // Création de l'objet Commerciale
