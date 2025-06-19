@@ -9,14 +9,15 @@ import java.util.Scanner;
 public class job02_chaine {
     
     public static void main(String[] args) {
-        // Début du chronomètre
-        long startTime = System.currentTimeMillis();
-        
+                       
         Scanner scanner = new Scanner(System.in);
         
         // Demander la longueur de la chaîne à l'utilisateur
         System.out.print("Entrez la longueur de la chaîne de caractères à générer: ");
         int longueur = scanner.nextInt();
+
+        // Début du chronomètre
+        long startTime = System.currentTimeMillis();
         
         // Générer une chaîne de caractères aléatoire
         String chaineAleatoire = genererChaineAleatoire(longueur);
